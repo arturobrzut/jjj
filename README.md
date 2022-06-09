@@ -24,10 +24,10 @@ I want to see the number of vowels in each of the strings that I have entered.
    1. How output format should look like
       1. JSON format should be good
       2. Proposal output format { "string with escaping chars" : value, "another string" : value }
-      3. What should we do if there will be more then 4 string at once
-         1. should we do not process anything -> current assumption
-         2. or should we process first 4 strings
-   2. The String separation is space/tab or string can contain space inside
+      3. Where should we display infomration about consonant
+   2. What should we do if there will be more than 4 string at once
+      1. should we do not process anything -> current assumption
+      2. or should we process first 4 strings
 2. Review the code and provide feedback/ improvements.
    1. Separate Main functions and business logic (getVowelCount method)
       1. After that change private attribute in getVowelCount to public
