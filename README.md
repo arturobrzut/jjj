@@ -45,8 +45,9 @@ I want to see the number of vowels in each of the strings that I have entered.
 3. Extend the program to return the number of consonants for each string array passed.
 4. Use BDD/ Cucumber to add test cases to test the program for both vowels and consonants.
 5. Report any bugs you find. Include as much information as necessary and add the feedback as a file to the repo along with the Cucumber Test Report.
-   1. Add support for case-sensitive , now our service can search only lower case strings 
-   2. Output format should be in format which prepare proper output
+   1. Add support for case-sensitive , now our service can search only lower case strings
+   2. Now we accepted only 3 parameters (when there is >=4 we rise error)
+   3. Output format should be in format which prepare proper output
        1. currently format can create problem during reading it we add input string as "abc=3, cde=33, c" output will be {abc=3, cde=33, c=2}
 
 Bonus points if you can add failing test cases for the bugs you find. 
